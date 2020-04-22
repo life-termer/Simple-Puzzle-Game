@@ -79,6 +79,7 @@ public class PuzzleGame extends JFrame implements ActionListener {
         setSize(300, 300);
         setResizable(false);
         setLayout(null);
+        setLocationRelativeTo(null);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
